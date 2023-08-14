@@ -65,6 +65,7 @@ b) A percentagem de pessoas na primeira e na última faixa etária em relação 
 
 **Descrição:** Escreva um algoritmo que solicite ao usuário a entrada de cinco números, exiba o somatório desses números e, em seguida, mostre os números digitados.
 
+_________________________________________________________________________________________________________________________________________________________________
 Cada exercício inclui um arquivo `.portugol` com a solução correspondente em Portugol. Sinta-se à vontade para explorar, aprender e utilizar esses exemplos para melhorar suas habilidades em lógica de programação. Boas práticas de programação, comentários explicativos e estruturação adequada foram utilizados em cada solução para facilitar a compreensão.
 
 Divirta-se programando e aprimorando suas habilidades de lógica! 
