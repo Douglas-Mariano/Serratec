@@ -20,14 +20,26 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vVetor[5] = {5, 8, 6, 7, 9}
+		const inteiro TAM = 5
+		inteiro vVetor[TAM]
+		inteiro aux
 
+		para(inteiro i = 0; i < TAM; i++){
+			escreva("Digite o ", i+1, "º valor: ")
+			leia(vVetor[i])
+		}
+		limpa()
 		escreva ("Vetor original:\n")
-		para(inteiro i = 0; i < 5; i++){
+		para(inteiro i = 0; i < TAM; i++){
 			escreva (vVetor[i], "\t")
 		}
 		escreva ("\nVetor invertido:\n")
-		para(inteiro i = 4; i >= 0; i--){
+		para(inteiro i = 0; i < (TAM / 2); i++){
+			aux = vVetor[i]
+			vVetor[i] = vVetor[(TAM-1) - i]
+			vVetor[(TAM-1) - i] = aux
+		}
+		para(inteiro i = 0; i < TAM; i++){
 			escreva (vVetor[i], "\t")
 		}
 	}
@@ -37,9 +49,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 44; 
+ * @POSICAO-CURSOR = 777; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {aux, 25, 10, 3}-{i, 27, 15, 1}-{i, 33, 15, 1}-{i, 37, 15, 1}-{i, 42, 15, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
