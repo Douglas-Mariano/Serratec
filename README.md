@@ -65,14 +65,28 @@ b) A percentagem de pessoas na primeira e na última faixa etária em relação 
 
 **Descrição:** Escreva um algoritmo que solicite ao usuário a entrada de cinco números, exiba o somatório desses números e, em seguida, mostre os números digitados.
 
+Exercício 16 - Calculadora
+--------------------------
+
+**Descrição:** Crie um programa de calculadora que permite ao usuário realizar operações de soma, subtração, multiplicação, divisão e potência entre dois números.
+
+Exercício 17 - Estimativa de Investimento
+-----------------------------------------
+
+**Descrição:** Faça um programa para estimar quanto uma pessoa irá receber se deixar o dinheiro dela investido por 12 meses em um fundo de investimento com juros de 10% ao mês.
+
+Exercício 18 - Tempo para Alcançar Valor Desejado
+-------------------------------------------------
+
+**Descrição:** Fazer um programa para estipular em quanto tempo um valor depositado em um fundo de investimento, com taxa de 10% mensais, levará para chegar a um valor desejado.
+
 _________________________________________________________________________________________________________________________________________________________________
+
 Cada exercício inclui um arquivo `.portugol` com a solução correspondente em Portugol. Sinta-se à vontade para explorar, aprender e utilizar esses exemplos para melhorar suas habilidades em lógica de programação. Boas práticas de programação, comentários explicativos e estruturação adequada foram utilizados em cada solução para facilitar a compreensão.
 
 Divirta-se programando e aprimorando suas habilidades de lógica! 
 
 Se tiver alguma dúvida ou sugestão, fique à vontade para abrir uma issue ou enviar um pull request.
-
-
 
 
 

@@ -22,6 +22,9 @@
 
 programa
 {
+
+	inclua biblioteca Util --> utl
+	
 	const inteiro TAM = 10
 	cadeia vNomes[TAM]
 	inteiro vIdades[TAM]
@@ -37,7 +40,7 @@ programa
 		inteiro opcao
 		logico sair = verdadeiro
 		
-		
+		limpa()
          	faca{
 	         	escreva("--------------------------------\n")
 	       	escreva(" Cadastro de pessoas\n")
@@ -54,7 +57,7 @@ programa
 	       	escolha(opcao){
 	       		
 				caso 1:
-					sair = incluir(vNomes, vIdades) 
+					incluir(vNomes, vIdades) 
 				pare
 				caso 2:
 					sair = alterar(vNomes, vIdades) 
@@ -70,6 +73,7 @@ programa
 				pare
 				caso contrario:
 					escreva("Opção inválida!\n")
+					utl.aguarde(1500)
 				pare
 			}
          	} enquanto (sair)
@@ -86,6 +90,7 @@ programa
                 escreva("Digite a idade da ", i+1, "ª pessoa: ")
                 leia(vIdades[i])
                 escreva("Pessoa adicionada com sucesso.\n")
+                pare
             }
         }
         escreva("Todas as pessoas foram adicionadas!\n")
@@ -143,8 +148,13 @@ programa
 		escreva("Nomes", "\t- ", "Idades\n")
 		escreva("--------------------------------\n")
 		para(inteiro i = 0; i < TAM; i++){
-			escreva(vNomes[i], "\t", vIdades[i])
-			escreva("\n")
+			se(vNomes[i] == ""){
+				escreva("")
+			}senao {
+				escreva(vNomes[i], "\t\t-", vIdades[i])
+				escreva("\n")
+				utl.aguarde(2000)
+			}
 		}
 		retorne verdadeiro
 	}
@@ -155,9 +165,10 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 777; 
+ * @POSICAO-CURSOR = 3609; 
+ * @DOBRAMENTO-CODIGO = [99, 126];
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {vNomes, 26, 8, 6}-{vIdades, 27, 9, 7};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
