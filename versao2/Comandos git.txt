@@ -1,0 +1,39 @@
+Comandos Git
+
+ctrl + l = É o comando que limpa a tela do terminal do git.
+
+git config --global user.email "email@usuário.com" - vincula um e-mail ao git (de preferência o mesmo do github)
+
+git config --global user.name "Nome Usuário" - vincula um usuário ao git (de preferência o mesmo do github)
+
+git config --global --unset user.email - para resetar o email do git
+
+git config --global --unset user.name - para resetar o nome do git
+
+git config --list - mostra a lista de configurações do git, como usuário e email
+
+git clone "link do repositório no github" - "clona" o repositório remoto do github para sua máquina
+
+git init - criar repositório
+
+tipo Markdown (tipo HTML)
+
+git status - verificar estado dos arquivos (mostra quando é pra fazer commit, quando tá pronto pra enviar pro github, etc.)
+
+git add . (ou *) - muda o arquivo untracked e modified para a staged area
+
+git add "nome do arquivo" - adicionamos um arquivo no diretório
+
+git commit -m "mensagem" - "commitamos" os arquivos da staged area e adicionamos uma mensagem que dará significância a eles
+
+git push origin master (ou main) - empurra os arquivos para o github
+
+git pull origin master (ou main) - traz os arquivos do github para nossa máquina
+
+git remote -v - aponta o link do diretório remoto
+
+git log - para ver o historico de commits
+
+git show - apresenta informações sobre o commit
+
+git branch - Permite criar ambientes de desenvolvimento isolados em um único repositório
