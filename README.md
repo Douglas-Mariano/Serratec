@@ -1,2 +1,11 @@
 # Serratec
-Exercício de Lógica de Programação com Portugol Residência Serratec
+
+Projeto da Residência Serratec 2023.2
+
+
+
+### Assuntos:
+
+###### 1 - Lógica de Programação
+
+
